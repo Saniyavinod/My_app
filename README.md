@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# An expo app creating on top of react native 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Steps to setup the project
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
+1. Clone the repository locally
 
    ```bash
-    npx expo start
+   git clone <repo-link>
    ```
 
-In the output, you'll find options to open the app in a
+2. Install dependencies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+    npm install
+   ```
+3. Start the app
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+   ```bash
+    npm start
+   ```
 
-## Get a fresh project
+You will be able to see a working app after performing these steps. 
 
-When you're ready, run:
+Every code is present in the **app** directory
 
-```bash
-npm run reset-project
-```
+## Approach taken to replicate the UI
+   As I was a bit familiar with using react and have worked on couple of projects using HTML replicating the UI was not that difficult. I had to learn about the **core components of React native** to get started. Navigation part was a little bit tricky for me to catch up but after goinf through some tutorials and documentations I could finally find a solution for that.  I coudn't replicate the UI in ios devices because I didn't have the right set of facilities for that. I was enable to come up with a solution for the API as it was not free to use. I have implemented my own way of validating the user credentials for this prokject.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Description on how the provided assets where used
+   The provided assets made the development process smooth. I used the traditional method of creating the assets folder in the project directory and importing the images and icons accordingly.
